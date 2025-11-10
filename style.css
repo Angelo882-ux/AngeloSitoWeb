@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #063447, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+  border: none;
+  margin-top: 40px;
+  font-size: 1.2em;
+}
+
+select, button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 5px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #00bfff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0099cc;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  font-size: 0.9em;
+}
